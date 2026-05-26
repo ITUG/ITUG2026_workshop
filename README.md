@@ -57,8 +57,11 @@ D. TF2XML
  
 `LOOP/#` = Schleifendurchläufe
 
-`READ/EXIT q` = Portionsweises Einlesen der unter `q` angegebenen Datei/Variable bis Ende
-`Write z` = Portionsweises Schreiben der unter `z` angegebenen Datei/Variable
+`READ/EXIT q` = Portionsweises Lesen der unter `q` angegebenen Datei/Variable 
+
+`/EXIT` - bis Ende, dann ACCESS verlassen
+
+`WRITE z` = Portionsweises Schreiben der unter `z` angegebenen Datei/Variable
 
 `ENDLOOP` = Schleife beenden
 
@@ -80,16 +83,39 @@ ENDACCESS q
 - Tagname ändern (`p` in `quote`)                                    
 - Tagname ändern, kontextabhängig (nur `p` innerhalb des text-Elements)
 
+`START_TAG` 
+
+`END_TAG` 
+
 ## Dateizugriff auf strukturierte Dateien  (≠xml)
 
 - Ziel: XML-Struktur entwickeln
 
 `a` - definiert durch `S_TABLE` 
+
 `t` - Inhalt nach `a` bis zum folgenden `a`
-`e`_- undefiniert
+
+`e` - undefiniert
 
 typ=1 - Portion mit `a` (wie in `S_TABLE` definiert)
+
 typ=0 – Portion ohne `a` (wie in `S_TABLE` definiert)
 
 CYCLE – weiter im Schleifendurchgang
+
+`JOIN`
+
+`SPLIT`
+
+`EXTRACT` 
+
+`EXCHANGE` 
+
+`SQUEEZE` 
+
+`SET_ATTRIBUTE` 
+
+`CONCAT` 
+
+`APPEND` 	
  
