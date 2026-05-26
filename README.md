@@ -172,8 +172,6 @@ y,mt.=SET_INS,"$$ MODE TUSCRIPT,{}",SPLIT
 y,color1=COLOR:1
 ```
 
-- mfslit.tf
-
 # Dateizugriffe   
 
 ## 1. Zugriff im Modus `STREAM` auf eine XML-Datei
