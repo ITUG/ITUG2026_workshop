@@ -144,11 +144,6 @@ ENDACCESS/PRINT q
 ENDACCESS/PRINT z
 ```
 
-## Übungsdateien
-
-- TEI.XML
-- mfslit.tf
-
 ## tustep.ini
 - init
 
@@ -177,9 +172,17 @@ y,mt.=SET_INS,"$$ MODE TUSCRIPT,{}",SPLIT
 y,color1=COLOR:1
 ```
 
+- mfslit.tf
+
 # Dateizugriffe   
 
-## Zugriff im Modus `STREAM` auf eine XML-Datei
+## 1. Zugriff im Modus `STREAM` auf eine XML-Datei
+
+### Übungsdatei
+
+- TEI.XML
+
+### ACCESS
 
 - Datei `source` anmelden mit Lesezugriff 
 `ERROR/STOP OPEN (source,READ,-std-)`
@@ -194,7 +197,7 @@ y,color1=COLOR:1
 `UTF8`   = ZUgriff auf UTF8 codierte Datei
 ``` 
 
-- Variablen
+### Variablen
 
 `s` = Satznummern (bei /FILE/UTF8 und /VARIABLE)
 
@@ -212,7 +215,7 @@ y,color1=COLOR:1
 
 `stack_num` = Tag-Hierarchie (nummeriert)
 
-- LESEN/Schreiben
+### LESEN/Schreiben
  
 `LOOP/#` = Schleifendurchläufe
 
@@ -226,7 +229,6 @@ y,color1=COLOR:1
 
 `ENDACCESS` = Lesezugriff beenden 
 
-`TRACE` = Protokoll einschalten 
 
 ```bash
 ACCESS q: READ/FILE/STREAM/UTF8 source s,a+t+e,typ,stack,stack_num
@@ -238,17 +240,27 @@ ACCESS q: READ/FILE/STREAM/UTF8 source s,a+t+e,typ,stack,stack_num
 ENDACCESS q
 ```
 
-### Übungsaufgaben
-- Tagname ändern (`p` in `quote`)                                    
-- Tagname ändern, kontextabhängig (nur `p` innerhalb des text-Elements)
+### Makroanweisungen
+`TRACE` = Protokoll einschalten 
 
 `START_TAG` 
 
 `END_TAG` 
 
-## Dateizugriff auf strukturierte Dateien  (≠xml)
+### Übungsaufgaben
+- Tagname ändern (`p` in `quote`)                                    
+- Tagname ändern, kontextabhängig (nur `p` innerhalb des text-Elements)
 
-- Ziel: XML-Struktur entwickeln
+## 2. Zugriff im Modus `STREAM` auf eine strukturierte Datei (≠xml)
+
+### Übungsdatei
+mfslit.tf
+
+### Aufgabe
+
+XML-Struktur entwickeln
+
+### ACCESS - Variablen 
 
 `a` - definiert durch `S_TABLE` 
 
@@ -256,11 +268,13 @@ ENDACCESS q
 
 `e` - undefiniert
 
-typ=1 - Portion mit `a` (wie in `S_TABLE` definiert)
+`typ=1` - Portion mit `a` (wie in `S_TABLE` definiert)
 
-typ=0 – Portion ohne `a` (wie in `S_TABLE` definiert)
+`typ=0` – Portion ohne `a` (wie in `S_TABLE` definiert)
 
-CYCLE – weiter im Schleifendurchgang
+### Makroanweisungen
+
+`CYCLE` – weiter im Schleifendurchgang
 
 `JOIN`
 
