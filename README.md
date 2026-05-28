@@ -1,4 +1,8 @@
-__toc__
+# Inhaltsverzeichnis 
+
+- [TUSCRIPT I](#einf%C3%BChrung-in-tuscript-i)
+- [TUSCRIPT II](#einf%C3%BChrung-in-tuscript-ii)
+- [TUSCRIPT III](#einf%C3%BChrung-in-tuscript-iii)   
 
 # Einführung in TUSCRIPT I 
 ## Vortrag
@@ -11,10 +15,10 @@ __toc__
 - loesungen.tf
 
 ## Beispieldateien 
-aufsatz.tf
-komponisten.tf
-stuecke1.tf
-stuecke2.tf
+- aufsatz.tf
+- komponisten.tf
+- stuecke1.tf
+- stuecke2.tf
 
 # Einführung in TUSCRIPT II
 
