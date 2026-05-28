@@ -1,3 +1,19 @@
+# Einführung in TUSCRIPT I 
+## Vortrag
+- vortrag.pdf
+- vortrag.tf
+- vortrag.odp
+
+## Übungsdateien
+- uebungen.tf
+- loesungen.tf
+
+## Beispieldateien 
+aufsatz.tf
+komponisten.tf
+stuecke1.tf
+stuecke2.tf
+
 # Einführung in TUSCRIPT II
 
 ## Skripte
