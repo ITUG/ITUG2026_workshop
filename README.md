@@ -6,7 +6,7 @@
 
 # Einführung in TUSCRIPT I 
 ## Vortrag
-- vortrag.pdf
+- [vortrag.pdf](vortrag.pdf)
 - vortrag.tf
 - vortrag.odp
 
