@@ -200,7 +200,7 @@ y,color1=COLOR:1
 
 ### Übungsdatei
 
-- TEI.XML
+- [TEI.XML](TEI.XML)
 
 ### ACCESS
 
