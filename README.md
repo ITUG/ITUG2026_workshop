@@ -289,4 +289,15 @@ XML-Struktur entwickeln
 `CONCAT` 
 
 `APPEND` 	
+
+# Einführung in TUSCRIPT_III
+
+## Übungsdateien 
+
+- req1.skpt
+- req2.skpt
+- req3.skpt
+- req4.skpt
+- req5.skpt
+
  
