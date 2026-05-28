@@ -292,7 +292,7 @@ XML-Struktur entwickeln
 
 # Einführung in TUSCRIPT_III
 
-## Übungsdateien 
+## Beispieldateien 
 
 - req1.skpt
 - req2.skpt
