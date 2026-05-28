@@ -1,8 +1,8 @@
 # Inhaltsverzeichnis 
 
-- [TUSCRIPT I](#einf%C3%BChrung-in-tuscript-i)
-- [TUSCRIPT II](#einf%C3%BChrung-in-tuscript-ii)
-- [TUSCRIPT III](#einf%C3%BChrung-in-tuscript_iii)   
+- [TUSCRIPT I](#einf%C3%BChrung-in-tuscript-i): Datentypen
+- [TUSCRIPT II](#einf%C3%BChrung-in-tuscript-ii): Dateizugriffe
+- [TUSCRIPT III](#einf%C3%BChrung-in-tuscript_iii): REQUEST  
 
 # Einführung in TUSCRIPT I 
 ## Vortrag
